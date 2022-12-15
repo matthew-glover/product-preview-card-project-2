@@ -19,7 +19,7 @@ This is a solution to the [Product Preview Card challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-component-8RSpV8q5mA)
 - Live Site URL: (https://matthew-glover.github.io/product-preview-card-project-2/)
 
 ### Built with
