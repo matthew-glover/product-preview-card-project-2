@@ -90,7 +90,7 @@ button img{
     padding-right: 10px;
 }
 
-button:a hover{
+button a:hover{
     background-color: hsl(158, 36%, 37%);
 }
 
