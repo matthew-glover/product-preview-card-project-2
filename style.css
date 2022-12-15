@@ -65,7 +65,7 @@ img{
     margin-right: 70px;
 }
 
-button{
+.cart{
     border: none;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
@@ -78,20 +78,13 @@ button{
     padding-top: 18px;
     padding-bottom: 18px;
     width: 100%;
-}
-
-button a{
-    text-align: center;
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
+    text-align: center;
 }
 
-button img{
-    padding-right: 10px;
-}
-
-button a:hover{
-    background-color: hsl(158, 36%, 37%);
+.cart:hover{
+    background-color: hsl(212, 21%, 14%);
+    transition: 0.3s;
 }
 
 .attribution{
