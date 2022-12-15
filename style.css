@@ -1,0 +1,107 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1{
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+    font-size: 40px;
+}
+
+p{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 24px;
+    word-spacing: 8px;
+    width: 90%;
+}
+
+.container{
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    max-width: 750px;
+}
+
+.image{
+    float: left;
+    flex: 50%;
+}
+
+.text{
+    padding: 40px;
+    float: right;
+    flex: 50%;
+}
+
+.header{
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 375px;
+}
+
+.salePrice{
+    font-family: Fraunces;
+    font-size: 34px;
+    color: hsl(158, 36%, 37%);
+}
+
+.originalPrice{
+    font-family: Montserrat;
+    text-align: right;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    margin-top: -30px;
+    margin-right: 70px;
+}
+
+button{
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 0px;
+    border-radius: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 100%;
+}
+
+button a{
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+button img{
+    padding-right: 10px;
+}
+
+button:a hover{
+    background-color: hsl(158, 36%, 37%);
+}
+
+.attribution{
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    color: hsl(228, 12%, 48%);
+}
+
+.attribution a{
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+}
