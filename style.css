@@ -14,26 +14,26 @@ p{
     color: hsl(228, 12%, 48%);
     line-height: 24px;
     word-spacing: 8px;
-    width: 90%;
+    max-width: 90%;
 }
 
 .container{
     margin: 0 auto;
+    margin-top: 10%;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     max-width: 750px;
 }
 
-.image{
-    float: left;
-    flex: 50%;
+img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 50%;
 }
 
-.text{
+.right{
     padding: 40px;
-    float: right;
-    flex: 50%;
 }
 
 .header{
@@ -42,12 +42,6 @@ p{
     text-transform: uppercase;
     letter-spacing: 3px;
     text-decoration: none;
-}
-
-img{
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    max-width: 375px;
 }
 
 .salePrice{
@@ -62,7 +56,7 @@ img{
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
     margin-top: -30px;
-    margin-right: 70px;
+    padding-right: 70px;
 }
 
 .cart{
@@ -77,9 +71,9 @@ img{
     padding-right: 80px;
     padding-top: 18px;
     padding-bottom: 18px;
-    width: 100%;
     text-decoration: none;
     text-align: center;
+    max-width: 100%;
 }
 
 .cart:hover{
